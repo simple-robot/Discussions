@@ -16,6 +16,30 @@ body:
 
          <hr />
          
+  - type: dropdown
+    id: language
+    attributes:
+      label: 选择此问题涉及的编程语言. (如果没有或无对应选项则选择任意一个后在描述中补充说明即可)
+      options:
+        - Java
+        - Kotlin
+        - 其他
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: component
+    attributes:
+      label: 选择此问题涉及的组件库. (如果没有或无对应选项则选择任意一个后在描述中补充说明即可)
+      multiple: true
+      options:
+        - mirai
+        - kook
+        - QQ频道
+        - 其他
+    validations:
+      required: true
+  
   - type: textarea
     id: question
     attributes:
