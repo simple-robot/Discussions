@@ -1,0 +1,29 @@
+name: "🤔Q&A"
+description: "问一问,你想知道的"
+labels: [ ]
+assignees: [ "ForteScarlet" ]
+# https://docs.github.com/zh/discussions/managing-discussions-for-your-community/creating-discussion-category-forms
+body:
+  - type: markdown
+    attributes:
+      value: |
+         ## 须知
+         ## 提问or反馈?
+         请确保你的疑问应当是一个**疑问**而不是一个**反馈**。假如你的这个“疑问”来自于一串错误信息，那么你应该前往 [**此处**](https://github.com/simple-robot/simpler-robot/issues/new?template=bug-report.yml) 反馈这些信息。
+         
+         ### 确认
+         在进行问题反馈前，请**确认**以下内容：
+         1. 我已参阅过相关文档、注释。
+         2. 我已确认 [issues](https://github.com/ForteScarlet/simpler-robot/issues) 或 [讨论区](https://github.com/orgs/simple-robot/discussions) 内没有类似/重复问题。
+         3. 我已确认所述内容不涉及任何个人隐私或其他敏感信息。
+
+         <hr />
+         
+  - type: textarea
+    id: question
+    attributes:
+      label: 疑问描述
+      description: 描述你的疑问
+      placeholder: "例如: 怎么通过代码实现财富自由"
+    validations:
+      required: true
