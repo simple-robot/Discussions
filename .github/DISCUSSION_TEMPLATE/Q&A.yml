@@ -1,7 +1,3 @@
-name: "🤔Q&A"
-description: "问一问,你想知道的"
-labels: [ ]
-assignees: [ "ForteScarlet" ]
 # https://docs.github.com/zh/discussions/managing-discussions-for-your-community/creating-discussion-category-forms
 body:
   - type: markdown
