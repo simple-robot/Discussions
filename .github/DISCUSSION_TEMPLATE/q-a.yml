@@ -5,7 +5,8 @@ body:
       value: |
          ## 须知
          ### 提问or反馈?
-         请确保你的疑问应当是一个**疑问**而不是一个**反馈**。假如你的这个“疑问”来自于一串错误信息，那么你应该前往 [**此处**](https://github.com/simple-robot/simpler-robot/issues/new?template=bug-report.yml) 反馈这些信息。
+         请确保你的疑问应当是一个**疑问**而不是一个**反馈**。假如你的这个“疑问”来自于一串错误信息，那么你应该前往 [**此处**](https://github.com/simple-robot/simpler-robot/issues/new?template=bug-report.yml) 反馈这些错误。
+         当然，如果你有很明确的目标，请继续。
          
          ### 确认
          在进行问题反馈前，请**确认**以下内容：
