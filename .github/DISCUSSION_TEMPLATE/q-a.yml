@@ -37,7 +37,7 @@ body:
       description: 如果没有或无对应选项则在描述中补充说明
       multiple: true
       options:
-        - mirai
+        - mirai (QQ)
         - kook
         - QQ频道
         - 其他
