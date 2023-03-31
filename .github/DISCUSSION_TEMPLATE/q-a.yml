@@ -42,11 +42,18 @@ body:
         - QQ频道
         - 其他
   
+   - type: markdown
+    attributes:
+      value: |
+         请注意使用markdown格式编撰，代码、日志等内容**请不要**使用截图形式，而应当使用 `多行代码块` 进行展现，且尽可能提供完整内容。
+
+         <hr />
+  
   - type: textarea
     id: question
     attributes:
       label: 疑问描述
-      description: 描述你的疑问
-      placeholder: "例如: 怎么通过simbot实现财富自由"
+      description: 描述你的疑问。
+      placeholder: "例如: 我找不到xxx功能的api在哪儿"
     validations:
       required: true
