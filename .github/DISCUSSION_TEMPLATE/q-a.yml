@@ -42,8 +42,8 @@ body:
         - QQ频道
         - 其他/无
         
-      validations:
-        required: true
+    validations:
+      required: true
       
   
   - type: textarea
