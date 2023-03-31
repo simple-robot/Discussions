@@ -40,8 +40,11 @@ body:
         - mirai (QQ)
         - kook
         - QQ频道
-        - 其他
-
+        - 其他/无
+        
+      validations:
+        required: true
+      
   
   - type: textarea
     id: question
