@@ -37,15 +37,16 @@ body:
       description: 如果没有或无对应选项则在描述中补充说明
       multiple: true
       options:
-        - mirai (QQ)
-        - kook
+        - KOOK
         - QQ频道
+        - Telegram
+        - Discord
+        - mirai (QQ)
         - 米游社大别野
         - 其他/无
         
     validations:
       required: true
-      
   
   - type: textarea
     id: question
