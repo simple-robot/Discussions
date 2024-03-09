@@ -41,8 +41,8 @@ body:
         - QQ频道
         - Telegram
         - Discord
-        - ~~mirai (QQ)~~
-        - ~~米游社大别野~~
+        - mirai (QQ)
+        - 米游社大别野
         - 其他/无
         
     validations:
