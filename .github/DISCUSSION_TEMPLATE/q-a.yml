@@ -38,6 +38,8 @@ body:
       options:
         - KOOK
         - QQ频道
+        - Kritor
+        - OneBot
         - Telegram
         - Discord
         - mirai (QQ)
