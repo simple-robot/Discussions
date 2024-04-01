@@ -42,8 +42,7 @@ body:
         - OneBot
         - Telegram
         - Discord
-        - mirai (QQ)
-        - 米游社大别野
+        - mirai
         - 其他/无
         
     validations:
