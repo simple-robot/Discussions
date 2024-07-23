@@ -36,13 +36,12 @@ body:
       description: 如果没有或无对应选项则在描述中补充说明
       multiple: true
       options:
-        - KOOK
-        - QQ频道
-        - Kritor
+        - QQ机器人
         - OneBot
+        - KOOK
         - Telegram
         - Discord
-        - mirai
+        - Kritor
         - 其他/无
         
     validations:
